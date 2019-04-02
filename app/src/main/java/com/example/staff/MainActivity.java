@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 //        Name: Abaasa Nyangoma Lucky
 //        Reg:  2017/BIT/050/ps
 //        Course:Mobile Dev't
-//
+
     }
 
     public void create(View view) {
@@ -46,26 +46,26 @@ public class MainActivity extends AppCompatActivity {
         EditText name,pass;
         name = findViewById(R.id.name);
         pass = findViewById(R.id.password);
-        if(name.getText().toString().isEmpty()){
-            Toast.makeText(this, "Username required", Toast.LENGTH_SHORT).show();
-            name.requestFocus();
-        }
-        else if(pass.getText().toString().isEmpty()){
-            Toast.makeText(this, "Password required", Toast.LENGTH_SHORT).show();
-            pass.requestFocus();
-        }
-        else if(name.getText().toString().isEmpty() && pass.getText().toString().isEmpty()){
-            Toast.makeText(this, "Username and Password required", Toast.LENGTH_SHORT).show();
-            name.requestFocus();
-        }
-        else if(name.getText().toString().equals("lucky") && pass.getText().toString().equals("lucky256")){
+//        if(name.getText().toString().isEmpty()){
+//            Toast.makeText(this, "Username required", Toast.LENGTH_SHORT).show();
+//            name.requestFocus();
+//        }
+//        else if(pass.getText().toString().isEmpty()){
+//            Toast.makeText(this, "Password required", Toast.LENGTH_SHORT).show();
+//            pass.requestFocus();
+//        }
+//        else if(name.getText().toString().isEmpty() && pass.getText().toString().isEmpty()){
+//            Toast.makeText(this, "Username and Password required", Toast.LENGTH_SHORT).show();
+//            name.requestFocus();
+//        }
+//        else if(name.getText().toString().equals("lucky") && pass.getText().toString().equals("lucky256")){
             Intent intent = new Intent(this, Dashboard.class);
             String firstname = name.getText().toString();
-            intent.putExtra(uname,firstname);
+//            intent.putExtra(uname,firstname);
             startActivity(intent);
-        }
-        else{
-            Toast.makeText(this, "Invalid details", Toast.LENGTH_SHORT).show();
-        }
+//        }
+//        else{
+//            Toast.makeText(this, "Invalid details", Toast.LENGTH_SHORT).show();
+//        }
     }
 }
