@@ -39,7 +39,7 @@
 
     <EditText
         android:id="@+id/fname"
-        android:layout_width="150dp"
+        android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_marginTop="8dp"
         android:ems="10"
@@ -51,7 +51,7 @@
 
     <EditText
         android:id="@+id/sname"
-        android:layout_width="150dp"
+        android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_marginTop="8dp"
         android:ems="10"
@@ -63,7 +63,7 @@
 
     <EditText
         android:id="@+id/sfid"
-        android:layout_width="150dp"
+        android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_marginTop="8dp"
         android:ems="10"
@@ -79,7 +79,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
-        android:text="Fill in this form for familiarity"
+        android:text="Human Resource"
         android:textColor="?attr/colorAccent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -91,7 +91,7 @@
         android:layout_width="150dp"
         android:layout_height="50dp"
         android:layout_marginBottom="16dp"
-        android:text="Verify Your Details"
+        android:text="Register"
         android:textAppearance="@style/TextAppearance.AppCompat"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -110,7 +110,7 @@
 
     <EditText
         android:id="@+id/phone"
-        android:layout_width="150dp"
+        android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_marginTop="8dp"
         android:ems="10"
@@ -133,7 +133,7 @@
 
     <EditText
         android:id="@+id/mail"
-        android:layout_width="150dp"
+        android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_marginTop="8dp"
         android:ems="10"
@@ -157,7 +157,7 @@
 
     <EditText
         android:id="@+id/station"
-        android:layout_width="150dp"
+        android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_marginTop="8dp"
         android:ems="10"

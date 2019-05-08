@@ -12,16 +12,4 @@
 
 </records>
 
-<!--String subject = mailSubject.getText().toString();-->
-
-<!--Intent newIntent = new Intent(this,Second.class);-->
-<!--startActivity(newIntent);-->
-
-<!--Intent intent = new Intent(Intent.ACTION_SEND);-->
-<!--intent.putExtra(Intent.EXTRA_EMAIL,new String[]{to});-->
-<!--intent.putExtra(Intent.EXTRA_SUBJECT, subject);-->
-<!--intent.putExtra(intent.EXTRA_TEXT, message);-->
-<!--intent.setType("message/rfc822");-->
-<!--startActivity(intent);-->
-<!--startActivity(Intent.createChooser(intent,"Share"));-->
 

@@ -98,6 +98,9 @@ public class Dashboard extends AppCompatActivity {
             case R.id.share:
                 share();
                 break;
+            case R.id.Set:
+                Intent intent = new Intent(this,Settings.class);
+                startActivity(intent);
             default:
                 Toast.makeText(this, "", Toast.LENGTH_SHORT).show();
         }

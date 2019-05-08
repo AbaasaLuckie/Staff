@@ -15,7 +15,7 @@
             android:label="@string/label" />
         <activity
             android:name=".NewAccount"
-            android:label="@string/account" />
+            android:label="Sync" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
